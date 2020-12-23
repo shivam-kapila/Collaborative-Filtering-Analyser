@@ -1,0 +1,3 @@
+Cosine Novelty: 10.30643868784694
+Pearson Novelty: 10.298528508885278
+Pearson Baseline Novelty: 10.26099652990647

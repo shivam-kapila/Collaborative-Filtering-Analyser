@@ -22,7 +22,7 @@ class Preporocessor():
         dfs = [pd.read_json(f, lines=True).filter(['user_name', 'recording_msid', 'listened_at']) for f in self.listens_json]
         df = pd.concat(dfs, ignore_index=True)
 
-        df = df.sample(frac=0.001)
+        df = df.sample(frac=0.15)
         return df
 
     def calculate_listen_counts(self):

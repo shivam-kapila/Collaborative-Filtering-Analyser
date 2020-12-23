@@ -26,6 +26,7 @@ class Controller():
                             pearson_results=self.pearson_results, pearson_baseline_results=self.pearson_baseline_results)
         analyser.analyse()
 
+
 if __name__ == "__main__":
     controller = Controller()
     controller.run_analyser()
