@@ -6,9 +6,11 @@ import numpy as np
 import recmetrics
 
 
+INDEX_LIMIT = 50
+
 class Analyser():
     def __init__(self, listens_df, cosine_results, pearson_results, pearson_baseline_results):
-        self.index_limit = 25
+        self.index_limit = INDEX_LIMIT
         self.model_names = ['Cosine based CF', 'Pearson based CF', 'Pearson Baseline based CF']
 
         self.listens_df = listens_df
